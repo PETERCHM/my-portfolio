@@ -1,0 +1,79 @@
+body { 
+    background-image: url("image/167-1677724_technology-website-background-images-hd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+/* Reset default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set up basic styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .logo {
+    font-size: 24px;
+    margin-right: 20px;
+    display: inline-block;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  /* Section styles */
+  section {
+    padding: 40px 0;
+    background-color: #fff;
+  }
+  
+  section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  /* Contact section styles */
+  #contact {
+    background-color: #f0f0f0;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    .logo {
+      font-size: 20px;
+    }
+  
+    .menu li a {
+      padding: 2px;
+    }
+  }
+  
